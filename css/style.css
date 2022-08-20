@@ -34,12 +34,11 @@ header {
     background-color: #A7E9AF;
     height: 146px;
     width: 117px;
-    border-radius: 5px;
+    border-radius: 7px;
     border: 2px solid #99CEA8;
     margin-right: 17px;
     margin-left: 17px;
     margin-bottom: 34px;
-
     position: relative;
     transition: all 400ms ease;
     transform-style: preserve-3d;
@@ -49,31 +48,24 @@ header {
     width: 100%;
     height: 100%;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
 }
 
 .front {
     transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .back {
+    background-image: url(../images/front.png);
     background-color: #A7E9AF;
     backface-visibility: hidden;
 }
 
-.front img{
-    height: 100px;
-    width: 100px;
-}
-
-.back img{
-    height: 100px;
-    width: 100px;
-}
-
-.card:hover{
+.virada {
     transform: rotateY(180deg);
 }
