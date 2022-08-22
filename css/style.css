@@ -6,22 +6,37 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.dados {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 25px;
+    color: #2a3a2f;
 }
 
 header {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #75B79E;
-    font-size: 56px;
     height: 143px;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-bottom: 7px;
+    padding-top: 20px;
+    margin-bottom: 50px;
 }
+
+header h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #75B79E;
+    font-size: 56px; 
+    margin-bottom: 25px;
+}
+
 
 .content {
     display: flex;
@@ -68,4 +83,12 @@ header {
 
 .virada {
     transform: rotateY(180deg);
+}
+
+@media (max-width: 650px) {
+    header {
+        padding-top: 30px;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
 }
