@@ -58,12 +58,18 @@ function fimDoGame(){
             alert(`Parabéns ${playerName}, você ganhou o jogo dos piriquito em ${njogadas * 2} jogadas!
 Seu tempo total foi de ${segundos} segundos!`)
 
-            const resposta = prompt(`Deseja jogar novamente?
+            let resposta = prompt(`Deseja jogar novamente?
 (Responda apenas com "sim" ou "não")`)
+
+            while (resposta !== "sim" && resposta !== "não"){
+                resposta = prompt('Responda apenas com "sim" ou "não"')
+            }
 
             if (resposta === "sim") {
                 location.reload()
-            } 
+            } if (resposta === "não") {
+
+            }
         }, 300)
         
     }
