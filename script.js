@@ -55,7 +55,7 @@ function fimDoGame(){
         clearInterval(this.loop);
         
         setTimeout(()=> {
-            alert(`Parabéns ${playerName}, você ganhou o jogo dos piriquito em ${njogadas} jogadas!
+            alert(`Parabéns ${playerName}, você ganhou o jogo dos piriquito em ${njogadas * 2} jogadas!
 Seu tempo total foi de ${segundos} segundos!`)
 
             const resposta = prompt(`Deseja jogar novamente?
