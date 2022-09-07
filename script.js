@@ -68,7 +68,7 @@ Seu tempo total foi de ${segundos} segundos!`)
             if (resposta === "sim") {
                 location.reload()
             } if (resposta === "não") {
-
+                alert("Obrigado por jogar o jogo dos piriquito!")
             }
         }, 300)
         
