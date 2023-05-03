@@ -12,7 +12,7 @@
 <a name="sobre-o-projeto"></a>
 
 ## 📋 Sobre o projeto
-### tecnologias e ferramentas
+### Tecnologias e Ferramentas
 
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Javascript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&loo=javascript&logoColor=%23F7DF1E&logo=javascript&logoColor=%23F7DF1E)
